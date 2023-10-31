@@ -102,16 +102,31 @@
             </div>
         </div>
     </div>
-    <form class="container" method="POST" action="login.php">
+    <form class="container" method="POST" action="register.php">
         <div class="form-group">
-            <label for="username">Email address</label>
+            <label for="exampleInputEmail1">Full name</label>
+            <input type="text" class="form-control" placeholder="Enter full name"
+                    name="fullname">
+          </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
             <input type="text" class="form-control" placeholder="Enter username"
-                    name="username" id="username" style="text-transform:lowercase">
+                    name="username">
           </div>
           <div class="form-group">
-            <label for="password">Password</label>
-            <input type="password" name="password" class="form-control"
-                        id="password" placeholder="Password">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" name="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+          </div>
+          <div class="form-group">
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age" class="form-control" placeholder="age" id="age">
+          </div>
+          <div class="form-group ">
+            <select name="Gender" id="Gender" class="form-control">
+                <option value="Male" class="form-control">Male</option>
+                <option value="Female" class="form-control">Female</option>
+                <option value="other" class="form-control">Other</option>
+              </select>
           </div>
           <button type="submit" class="btn btn-primary">Submit</button>
     </form>
@@ -136,6 +151,7 @@
                             <span class="contact-icon"><i class="fa fa-envelope"></i></span>
                             <span class="contact-text">hrconsultant@gmail.com</span>
                         </div>
+                        
                         <div class="ft-social">
                             <ul>
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
