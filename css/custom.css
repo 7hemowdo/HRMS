@@ -1,3 +1,9 @@
 form {
     margin: 30px auto;
 }
+.box {
+    border: none;
+}
+.card-body {
+    background-color: #f5f5f5;
+}

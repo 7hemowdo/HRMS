@@ -98,6 +98,9 @@ blockquote { padding: 0px 24px; margin: 0 0 30px; font-size: 21px; border-left: 
 .blockquote-author { font-weight: 400; font-size: 14px; text-transform: capitalize; color: #0084bf; }
 strong { color: #1c1e1e; }
 hr { border-top: 1px solid #e4eaed; margin-bottom: 40px; margin-top: 40px; }
+.card {
+    float: right;
+}
 
 /*-----------------------
     2 Form Elements:
